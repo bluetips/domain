@@ -1,0 +1,18 @@
+安装环境
+python3
+
+安装依赖
+pip install requests
+
+修改传入的字典
+复制字典进入这个文件夹
+修改scan.py rntd_scanner.py
+
+这里修改成文件夹里相应的文件名，例如复制进来demo.txt 就改成 s.run('./demo.txt') 所以只用改一下里面的名字
+
+另一个要运行的脚本也是一样操作，改成传入的字典
+
+最后运行脚本
+python scan.py
+和python rntd_scanner.py
+就是这样
